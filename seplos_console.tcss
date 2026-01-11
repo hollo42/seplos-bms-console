@@ -1,0 +1,75 @@
+SeplosConsole {
+	background: $boost;
+	height: 5;
+	margin: 1;
+	min-width: 50;
+	padding: 1;
+}
+
+FieldDisplayer {
+    height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+ValueWithUnit {
+    text-align: center;
+    color: $foreground-muted;
+    border: green;
+    width: 16
+}
+
+Cells {
+    margin: 1;
+}
+
+Button {
+    width: 16;
+}
+
+#start {
+    dock: left;
+}
+
+#stop {
+    dock: left;
+    display: none;
+}
+
+#reset {
+    dock: right;
+}
+
+#unit {
+    dock: right;
+    text-align: right;
+    text-style: bold;
+}
+
+.bold_txt {
+    text-style: bold;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.voltage_high {
+    color: cyan;
+}
+
+.voltage_ok {
+    color: yellow;
+}
+
+.hidden {
+    visibility: hidden;
+}
